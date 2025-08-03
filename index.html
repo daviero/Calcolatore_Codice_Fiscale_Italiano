@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolo Codice Fiscale Online Gratis | Generatore Codice Fiscale 2025</title>
+    <meta name="description" content="Calcola il tuo codice fiscale italiano online gratis. Generatore preciso e veloce per ottenere qualsiasi codice fiscale in pochi secondi. Nessuna registrazione richiesta.">
+    <meta name="keywords" content="codice fiscale, calcolo codice fiscale, generatore codice fiscale, codice fiscale online, calcolo cf">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://codicefiscale.net/">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Calcolo Codice Fiscale Online Gratis">
+    <meta property="og:description" content="Genera il tuo codice fiscale italiano in pochi secondi. Strumento gratuito e preciso.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://codicefiscale.net/">
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebApplication",
+            "name": "Calcolatore Codice Fiscale",
+            "description": "Strumento online gratuito per calcolare il codice fiscale italiano",
+            "url": "https://codicefiscale.net/",
+            "applicationCategory": "UtilityApplication",
+            "operatingSystem": "All"
+        }
+    </script>
+
+</head>
+<body>
+    <div class="container-top">
+        <div class="header-top">
+            <a href="#Home" style="color: white; text-decoration: none;">Calcolatore Codice Fiscale</a>
+            <a href="#Chi-Siamo" style="color: white; text-decoration: none;" class="link-space">Chi Siamo</a>
+            <a href="#Metodo_di_Calcolo" style="color: white; text-decoration: none;">Metodo Di Calcolo</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <h1>🇮🇹 Calcolatore Codice Fiscale</h1>
+            <p>Calcolo preciso del codice fiscale italiano</p>
+        </div>
+
+        <div class="form-container">
+            <div class="warning">
+                <strong>⚠️ Attenzione:</strong> Questo calcolatore utilizza codici catastali aggiornati al 2025.
+            </div>
+
+            <form id="cf-form">
+                
+                <div class="form-row">
+                <div class="form-group flex-1">
+                    <label for="cognome">Cognome *</label>
+                    <input type="text" id="cognome" name="cognome" required>
+                    <div class="error-message" id="cognome-error">Il cognome deve contenere almeno 2 caratteri</div>
+                </div>
+
+                <div class="form-group flex-1">
+                    <label for="nome">Nome *</label>
+                    <input type="text" id="nome" name="nome" required>
+                    <div class="error-message" id="nome-error">Il nome deve contenere almeno 2 caratteri</div>
+                </div>
+
+                <div class="form-group flex-1">
+                    <label for="sesso">Sesso *</label>
+                    <select id="sesso" name="sesso" required>
+                        <option value="">Seleziona</option>
+                        <option value="M">Maschio</option>
+                        <option value="F">Femmina</option>
+                    </select>
+                </div>
+
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group flex-1">
+                        <label for="giorno">Giorno *</label>
+                        <select id="giorno" name="giorno" required>
+                            <option value="">Giorno</option>
+                        </select>
+                    </div>
+                    <div class="form-group flex-1">
+                        <label for="mese">Mese *</label>
+                        <select id="mese" name="mese" required>
+                            <option value="">Mese</option>
+                        </select>
+                    </div>
+                    <div class="form-group flex-1">
+                        <label for="anno">Anno *</label>
+                        <select id="anno" name="anno" required>
+                            <option value="">Anno</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row">
+
+                    <div class="form-group flex-1">
+                        <label for="comune">Comune di nascita *</label>
+                        <input type="text" id="comune" name="comune" autocomplete="off" placeholder="Inserisci Nome Comune Completo">
+                        <datalist id="comuni-list"></datalist>
+                        <div class="error-message" id="comune-error">Seleziona un comune valido dalla lista</div>
+                    </div>
+
+                    <div class="form-group flex-1">
+                        <label for="provincia">Provincia *</label>
+                        <select id="provincia" name="provincia" required>
+                            <option value="">Seleziona provincia</option>
+                        </select>
+                        <div class="error-message" id="provincia-error">Seleziona una provincia valida</div>
+                    </div>
+
+                </div>
+
+                <button type="submit" class="btn">📋 Calcola Codice Fiscale</button>
+            </form>
+
+            <div class="result" id="result">
+                <h3>Il Codice Fiscale è:</h3>
+                <div class="codice-fiscale" id="codice-result"></div>
+                <p><small>Ricorda di verificare sempre il codice fiscale con l'Agenzia delle Entrate per usi ufficiali</small></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="info-container">
+        <h2>Hai bisogno di calcolare il tuo codice fiscale in pochi secondi?</h2> 
+        <p>Con il nostro generatore di codice fiscale online gratuito, puoi ottenere il codice fiscale corretto inserendo semplicemente nome, cognome, data e luogo di nascita. Nessuna registrazione, nessun costo: il servizio è completamente gratuito e disponibile 24/7.</p>
+
+        <h3>✅ Calcolo codice fiscale online</h3>
+        Il nostro strumento utilizza l'algoritmo ufficiale per il calcolo del codice alfanumerico di 16 caratteri.
+
+        <h3>✅ Risultato istantaneo</h3>
+        Compila il modulo, clicca su "Calcola" e visualizza subito il tuo codice fiscale. Puoi anche copiarlo o stamparlo per conservarlo.
+
+        <h2>A cosa serve il codice fiscale?</h2>
+        Il codice fiscale è un identificativo univoco utilizzato per accedere a servizi sanitari, firmare contratti, aprire conti bancari, registrarsi a portali pubblici e privati e molto altro. È indispensabile per chi vive o lavora in Italia.
+
+        <h2>Perché usare il nostro sito?</h2>
+        ⚡ Calcolo immediato e preciso<br>🔒 Nessun dato salvato, privacy garantita<br>📱 Compatibile con tutti i dispositivi<br>🌐 Sempre accessibile, ovunque ti trovi</br>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
