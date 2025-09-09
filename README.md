@@ -16,8 +16,35 @@ Il progetto utilizza un'**API esterna** per recuperare in tempo reale i **codici
 ---
 
 ## 🔗 API dei Comuni
-L’applicazione sfrutta un endpoint serverless per ottenere i codici catastali:  
+L’applicazione sfrutta un endpoint per ottenere i codici catastali:
 
-```http
 GET https://axqvoqvbfjpaamphztgd.functions.supabase.co/comuni
+
+---
+
+## 📌 Esempio di risposta Json
+
+  {
+    "nome": "Roma",
+    "provincia": "RM",
+    "codiceCatastale": "H501"
+  },
+  {
+    "nome": "Milano",
+    "provincia": "MI",
+    "codiceCatastale": "F205"
+  }
+
+---
+
+## 📦 Installazione e utilizzo
+1. Clona la repository:
+   git clone https://github.com/daviero/Calcolatore_Codice_Fiscale_Italiano.git
+   
+2. Entra nella cartella del progetto:
+   cd Calcolatore_Codice_Fiscale_Italiano
+   
+3. Apri il file index.html nel browser.
+  
+
 
