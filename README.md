@@ -21,7 +21,7 @@ L’applicazione sfrutta un endpoint serverless per ottenere i codici catastali:
 ```http
 GET https://axqvoqvbfjpaamphztgd.functions.supabase.co/comuni
 
-Esempio di risposta (JSON):
+Esempio di risposta Json:
 [
   {
     "nome": "Roma",
