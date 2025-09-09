@@ -1,13 +1,49 @@
-<strong>Calcolatore Codice Fiscale Online 🇮🇹</strong>
-<br>
-Un'applicazione web gratuita per il calcolo del codice fiscale italiano.
-</br>
-<ul>
-<li>Calcolo immediato: Genera il codice fiscale in tempo reale</li>
-<li>Interfaccia intuitiva: Design moderno e responsive</li>
-<li>Validazione dati: Controlli di input per garantire dati corretti</li>
-<li>Database aggiornato: Codici catastali aggiornati al 2025</li>
-<li>Privacy garantita: Nessun dato viene salvato o trasmesso</li>
-<li>Completamente gratuito: Nessuna registrazione richiesta</li>
-</ul>
-<a href="https://codicefiscale.net/">Demo</a>
+# 🧮 Calcolatore Codice Fiscale Online 🇮🇹
+
+Un'applicazione web gratuita per il calcolo del **codice fiscale italiano**, semplice, veloce e sicura.  
+Il progetto utilizza un'**API esterna** per recuperare in tempo reale i **codici catastali dei comuni italiani**, garantendo dati sempre aggiornati.
+
+---
+
+## ✨ Funzionalità principali
+- ⚡ **Calcolo immediato**: Genera il codice fiscale in tempo reale
+- 🎨 **Interfaccia intuitiva**: Design moderno e responsive
+- ✅ **Validazione dati**: Controlli di input per garantire correttezza
+- 🌍 **Codici catastali aggiornati**: Recuperati dinamicamente tramite API
+- 🔒 **Privacy garantita**: Nessun dato viene salvato o trasmesso
+- 🆓 **Completamente gratuito**: Nessuna registrazione richiesta
+
+---
+
+## 🔗 API dei Comuni
+L’applicazione sfrutta un endpoint serverless per ottenere i codici catastali:  
+
+```http
+GET https://axqvoqvbfjpaamphztgd.functions.supabase.co/comuni
+
+Esempio di risposta (JSON):
+[
+  {
+    "nome": "Roma",
+    "provincia": "RM",
+    "codiceCatastale": "H501"
+  },
+  {
+    "nome": "Milano",
+    "provincia": "MI",
+    "codiceCatastale": "F205"
+  }
+]
+
+---
+
+## 📦 Installazione e utilizzo
+
+1. Clona la repository:
+git clone https://github.com/daviero/Calcolatore_Codice_Fiscale_Italiano.git
+
+2. Entra nella cartella del progetto:
+cd Calcolatore_Codice_Fiscale_Italiano
+
+3. Apri il file index.html nel browser:
+
