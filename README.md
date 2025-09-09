@@ -3,6 +3,8 @@
 Un'applicazione web gratuita per il calcolo del **codice fiscale italiano**, semplice, veloce e sicura.  
 Il progetto utilizza un'**API esterna** per recuperare in tempo reale i **codici catastali dei comuni italiani**, garantendo dati sempre aggiornati.
 
+**DEMO ONLINE ->** https://codicefiscale.net/
+
 ---
 
 ## ✨ Funzionalità principali
